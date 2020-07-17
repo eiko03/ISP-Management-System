@@ -6,9 +6,10 @@ ISP Management System
 
 This is an extension created on Multi-Auth-Login System. We believe development must be an enjoyable and creative experience to be truly fulfilling. 
 <br>
+### Technology Used
 
-<strong>technology used<br>
-</strong>
+<br>
+
 <ul>
   <ol>JS
   <li>Jquery</li>
@@ -49,7 +50,9 @@ $admin->password=Hash::make('testpassword')<br/>
 $admin->save()<br/>
 exit;
 
-
+### Upload Pictures
+<p> To upload pictures create symlink between "app/storage" and "public/storage"
+  You can Always ues Symlink() function in php</p>
 
 
 
