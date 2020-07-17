@@ -25,15 +25,16 @@ This is an extension created on Multi-Auth-Login System. We believe development 
     <li>VUE Routes</li>
     <li>Lodash</li>
   </ol>
+  <hr>
   <ol>CSS
     <li>Bootstrap</li>
     <li>Tailwind</li>
     <li>Animate</li>
     <li>Font Awesome</li>
     <li>Scemantic UI</li>
-  </ol>
-  <ol>Framework <li>Laravel</li></ol>
-  <ol>Database <li>Mysql</li></ol>
+  </ol><hr>
+  <ol>Framework <li>Laravel</li></ol><hr>
+  <ol>Database <li>Mysql</li></ol><hr>
   </ul>
 
 
