@@ -43,9 +43,9 @@ This is an extension created on Multi-Auth-Login System. We believe development 
 ``` <?PHP
 php artisan tinker
 admin=new App\Admin
-$admin->name="Test Admin"
-$admin->email="tipusultan50@gmail.com"
-$admin->password=Hash::make('testpassword')
+$admin->name="AA"
+$admin->email="A@A.com"
+$admin->password=Hash::make('AA')
 $admin->save()
 exit
 ```
