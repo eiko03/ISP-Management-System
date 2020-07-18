@@ -41,13 +41,13 @@ This is an extension created on Multi-Auth-Login System. We believe development 
 
 ### Creating Admin
 ``` <?PHP
-php artisan tinker;
-admin=new App\Admin;
-$admin->name="Test Admin";
-$admin->email="tipusultan50@gmail.com"<br/>
-$admin->password=Hash::make('testpassword')<br/>
-$admin->save()<br/>
-exit;
+php artisan tinker
+admin=new App\Admin
+$admin->name="Test Admin"
+$admin->email="tipusultan50@gmail.com"
+$admin->password=Hash::make('testpassword')
+$admin->save()
+exit
 ```
 ### Upload Pictures
 <p> To upload pictures create symlink between "app/storage" and "public/storage"
