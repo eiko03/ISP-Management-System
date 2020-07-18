@@ -40,16 +40,15 @@ This is an extension created on Multi-Auth-Login System. We believe development 
 
 
 ### Creating Admin
-
-php artisan tinker
-<br/>
-admin=new App\Admin<br/>
-$admin->name="Test Admin"<br/>
+``` <?PHP
+php artisan tinker;
+admin=new App\Admin;
+$admin->name="Test Admin";
 $admin->email="tipusultan50@gmail.com"<br/>
 $admin->password=Hash::make('testpassword')<br/>
 $admin->save()<br/>
 exit;
-
+```
 ### Upload Pictures
 <p> To upload pictures create symlink between "app/storage" and "public/storage"
   You can Always ues Symlink() function in php</p>
