@@ -26,7 +26,7 @@ This is an extension created on Multi-Auth-Login System. We believe development 
     <li>VUE Routes</li>
     <li>Lodash</li>
   </ol>
-  <hr>
+  <hr> 
   <ol>CSS
     <li>Bootstrap</li>
     <li>Tailwind</li>
